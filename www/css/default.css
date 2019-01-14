@@ -1,0 +1,18 @@
+
+.bg-alified {
+  background: #337ab7;
+}
+
+.nav-btn {
+  width: 88px;
+}
+
+.login_msg {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login_msg_txt {
+  color: red;
+  font-size: 18px;
+}

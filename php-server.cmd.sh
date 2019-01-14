@@ -1,0 +1,3 @@
+@ECHO OFF
+
+\[PATH_TO_PHP]\php.exe -S 127.0.0.1:8181 -t \[PATH_TO_YOUR_CODE_DIR]\www
