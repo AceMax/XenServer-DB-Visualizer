@@ -5,7 +5,7 @@ If you like me has struggled with bringing a failed XenServer back to life, you 
 
 The main purpose of XenServer DB Visualizer is not to fetch data from a running XenServer installation but to be able to read, view and query data from an off-line copy of the metadata database (state.db).
 
-** Please be aware that the code in it's current state is my "2 hour at the airport" build. There is currently no search, filters or error handling. The complete database is read into memory each time you choose an configuration instances. This can take a while and produce a large output for a big size XenServer installation. **
+**Please be aware that the code in it's current state is my "2 hour at the airport" build. There is currently no search, filters or error handling. The complete database is read into memory each time you choose an configuration instances. This can take a while and produce a large output for a big size XenServer installation.**
 
 ## Requirements
 - A >= PHP v5.6 enabled web server OR a local >= PHP v5.6 installation.
