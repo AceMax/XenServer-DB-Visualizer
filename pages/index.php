@@ -25,7 +25,6 @@ foreach ($xml["table"] as $key => $row) {
 
     foreach ($row["row"] as $key2 => $row2) {
       echo '<div class="card m-2"><div class="card-header">' . $row2["@attributes"]["name__label"] . '</div><div class="card-body">';
-      // echo "<br>" . "----------" . $row2["@attributes"]["name__label"] . "----------" . "<br><br>";
       echo "\n" . '<table><thead><tr><th>Attribute</th><th>Value</th></tr></thead>';
       foreach ($row2["@attributes"] as $key3 => $row3) {
         echo '<tr><td>'. $key3 . "</td><td>" . str_replace("OpaqueRef:", "", $row3) . "</td></tr>";
