@@ -1,5 +1,5 @@
 # XenServer-DB-Visualizer
-A tool for browsing / quering an ofline version of XenServer's state / metadata database.
+A tool for browsing / quering an offline version of XenServer's state / metadata database.
 
 If you like me has struggled with bringing a failed XenServer back to life, you might (as me) have damned XenServer for it's way of
 storing metadata.
