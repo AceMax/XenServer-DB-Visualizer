@@ -8,8 +8,12 @@ This is why this project was brought to life.
 The main purpose of XenServer DB Visualizer is not to fetch data from a running XenServer installation but to be able to read, view and
 query data from an off-line copy of the metadata database (state.db).
 
+**Please be aware that the code in it's current state is my "2 hour at the airport" build.
+There is currently no search, filters or error handling.
+The complete database is read into memory each time you choose an configuration instans. This can take a while and produce a large output for a big size XenServer inatallation.**
+
 ## Requirements
-- A > PHP v5.6 enabled web server OR a local > PHP v5.6 installation.
+- A >= PHP v5.6 enabled web server OR a local >= PHP v5.6 installation.
 
 ## Installation
 - Clone the complete repository
@@ -24,7 +28,7 @@ query data from an off-line copy of the metadata database (state.db).
  - 6.2
  - 7.1 CU1
  
- ## What's next.
+ ## What's next
  - Save metadata to a sqlite / MySQL db to be able to do explicit queries.
  - DB download feature.
  - DB backup script.
